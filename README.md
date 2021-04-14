@@ -43,8 +43,8 @@ to the updated values.
 class TargetDelay:
     def __init__(self, type_str):
         if type_str == TISA:
-            # the 1st target of TISA, change this when the target is setting to other value
-            self.delay_1 = timedelta(6)
+            # the 1st target of TISA, change it when the target is of other value
+            self.delay_1 = timedelta(6)   # 6 days
             self.delay_1_name = 'Flag_delay_in_6_days'
             # 2nd target of TISA
             self.delay_2 = timedelta(7)
