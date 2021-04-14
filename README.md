@@ -10,8 +10,8 @@ Or, I personally recommend installing the popular [Anaconda](https://www.anacond
 
 ## Usage
 ### Inputs
-The 6 input Excel files are located in `/input_excel_files/`. 
-You may click [here](./input_excel_files/Aqua_Version3C_dates.xlsx) to read a sample input.
+The 6 input Excel files are located in `./input_excel_files/`. 
+You may click [here](./input_excel_files/Aqua_Version3C_dates.xlsx) to view a sample input.
 
 For each Excel file, please following the naming rules as `tsr_vstr_dates.xlsx`, 
 where `tsr` is in `Aqua`, `Terra` and `TISA`, and `vstr` is in `Version3C` and `Version4A`. 
@@ -20,8 +20,8 @@ If you want to change the names, please also change their appearances in the cod
 
 ### Outputs
 The output files are all csv files.
-The monthly success rate files are at [`./results/monthly`](`./results/monthly`), and the 
-yearly ones are at [`./results/annually`](`./results/annually`). These locations and file 
+The monthly success rate files are at `./results/monthly`, and the 
+yearly ones are at `./results/annually`. These locations and file 
 names are also hard-coded in scripts.
 
 ### Running the scripts
