@@ -29,6 +29,11 @@ names are also hard-coded in scripts.
 get the monthly statistics.
 2. Then run [`get_annual_suc_rates_statistics.ipynb`](./get_annual_suc_rates_statistics.ipynb) to get the annual
 statistics.
+3. Run [`get_monthly_plotly_figure.ipynb`](./get_monthly_plotly_figure.ipynb) to get the monthly success rate 
+Plotly bar chart of a single type in `Aqua`, `Terra` and `TISA`. 
+Change `TYPE_SWITCH` to other values to get other monthly plots.
+4. Run [`get_annual_plotly_figure.ipynb`](./get_annual_plotly_figure.ipynb) to get the annual success rate 
+Plotly bar chart of all the data sources.
 
 ### Configuring target delays
 Currently, for Aqua/Terra SSF products, the target of the delay is within 3/4 days. 
