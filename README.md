@@ -19,10 +19,13 @@ where `tsr` is in `Aqua`, `Terra` and `TISA`, and `vstr` is in `Version3C` and `
 If you want to change the names, please also change their appearances in the code.
 
 ### Outputs
-The output files are all csv files.
+#### `.csv` files
 The monthly success rate files are at `./results/monthly`, and the 
 yearly ones are at `./results/annually`. These locations and file 
 names are also hard-coded in scripts.
+
+#### Figures
+The generated figures are at [`./results/plotly_figures`](./results/plotly_figures).
 
 ### Running the scripts
 1. Run [`get_monthly_suc_rates_statistics.ipynb`](./get_monthly_suc_rates_statistics.ipynb) first to
